@@ -7,14 +7,15 @@ package pacman;
 
 import java.awt.Color;
 import java.awt.Graphics;
-import javax.swing.JLabel;
+import javax.swing.JLabel;  
+// Bom dia 
 
 /**
  *
  * @author desenv
  */
 public class Block extends Piece{
-    
+    int oi; // testando alterações °u°
     public Block(){
         this.width=10;
         this.height=10;
